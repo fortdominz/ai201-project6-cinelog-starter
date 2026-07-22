@@ -57,9 +57,10 @@ Instead of adding a configurable sort parameter right now, I'm sticking to a sen
 
 ## Commit history (screenshot)
 
-<!-- Paste your `git log --oneline` screenshot here -->
+![git log --oneline on feature/watchlist — 9 conventional commits, no merge commits](git-log.png)
 
 ```
+docs: add pr-response.md with review responses and design decisions
 fix: return 404/409 for watchlist add errors instead of 500
 test: add watchlist tests for missing film, duplicates, ordering, and removal
 feat: add remove_from_watchlist following collection service pattern
